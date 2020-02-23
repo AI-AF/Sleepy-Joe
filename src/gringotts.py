@@ -120,6 +120,26 @@ def save_token(token):
     print('TOKEN SAVED TO {} \n=====\n'.format(full_file_path))
 
 
+def retrieve_token(user_id):
+    """ Given a user ID, retrieve a that user's access token
+
+    Arguments:
+        user_id (str): User's FitBit ID (For example, 73DJXK)
+
+    Returns
+        dict: Token for access to user's data in dictionary form
+    """
+
+    file_name = "{}_token.pkl".format(user_id)
+
+    full_file_path = os.path.join(config.TOKEN_PATH, file_name)
+
+    with open(full_file_path, 'rb') as handle:
+        token_dict = pickle.load(handle)
+
+    return token_dict
+
+
 if __name__ == '__main__':
     import config
 
