@@ -2,7 +2,7 @@
 Flask app infrastructure for sleep contest
 
 
- - For this repo, create your own branch, and [submit a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+ - Fork this repo, create your own branch, and [submit a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
  - Format your doc strings [according to Google](http://google.github.io/styleguide/pyguide.html)
  - Ruben has a flask project online [here](http://ranc-aws-env.arz8dufmi3.us-east-2.elasticbeanstalk.com/0). Let him know if you want to look behind the curtain/at the code base.
 
