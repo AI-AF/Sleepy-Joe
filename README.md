@@ -11,7 +11,9 @@ Work Items:
  - Flask infrastructure
    - Bootstrap frontend/Jinja2
  - Helper Library for storing FitBit Historical Sleep Data in `postgresql`
-   - Helper Library for getting FitBit data
+   - Migrate existing `Sleep Contest` infrastructure.
+   - Confirm grabbing of 3rd part data (other users).
+   - Helper Library for getting FitBit data.
  - Figure out OAuth 2.0 Sever-to-Sever token exchange.
    - Store tokens in `postgresql` OR use AWS KMS
  - Single Person Sleep Stat View (Bokeh Plots
