@@ -11,13 +11,16 @@ import webbrowser
 import pickle
 
 from urllib.parse import urlparse
-from base64 import b64encode
 import cherrypy
 from fitbit.api import Fitbit
 from oauthlib.oauth2.rfc6749.errors import MismatchingStateError, MissingTokenError
+import config
 
 
 class OAuth2Server:
+    """ OAuth Server class
+    """
+
     def __init__(self, client_id, client_secret,
                  redirect_uri='http://127.0.0.1:8080/'):
         """ Initialize the FitbitOauth2Client """
@@ -120,7 +123,7 @@ def save_token(token):
     print('TOKEN SAVED TO {} \n=====\n'.format(full_file_path))
 
 
-def retrieve_token(user_id):
+def load_token(user_id):
     """ Given a user ID, retrieve a that user's access token
 
     Arguments:
