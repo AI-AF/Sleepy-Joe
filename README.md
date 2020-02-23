@@ -9,6 +9,7 @@ Flask app infrastructure for sleep contest
 Work Items:
 
  - Flask infrastructure
+   - There is a good tutorial [here](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world).
    - Bootstrap frontend/Jinja2
  - Helper Library for storing FitBit Historical Sleep Data in `postgresql`
    - Migrate existing `Sleep Contest` infrastructure.
