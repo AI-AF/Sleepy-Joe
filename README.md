@@ -1,4 +1,4 @@
-# Sleepy-Joe
+# You Snooze You Win
 Flask app infrastructure for sleep contest
 
 
